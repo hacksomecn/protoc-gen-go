@@ -1,4 +1,4 @@
-module protoc-gen-go
+module github.com/hacksomecn/protoc-gen-go
 
 go 1.18
 
