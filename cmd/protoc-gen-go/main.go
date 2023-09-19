@@ -13,11 +13,11 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/hacksomecn/protoc-gen-go/internal/version"
 	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
 	"google.golang.org/protobuf/compiler/protogen"
 	"os"
 	"path/filepath"
-	"protoc-gen-go/internal/version"
 )
 
 const genGoDocURL = "https://protobuf.dev/reference/go/go-generated"
